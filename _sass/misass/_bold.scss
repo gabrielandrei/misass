@@ -1,0 +1,44 @@
+/**
+  Created by    Gabriel Andrei gabrielandrei79@gmail.com
+  Date:         2019-05-02
+  Time:         21:54
+*/
+@mixin bold_thin() {
+  font-weight: 100;
+}
+
+@mixin bold_extra_light() {
+  font-weight: 200;
+}
+
+@mixin bold_light() {
+  font-weight: 300;
+}
+
+@mixin bold_normal() {
+  font-weight: 400;
+}
+
+@mixin bold_medium() {
+  font-weight: 500;
+}
+
+@mixin bold_semi_bold() {
+  font-weight: 600;
+}
+
+@mixin bold_bold() {
+  font-weight: 700;
+}
+
+@mixin bold_extra_bold() {
+  font-weight: 800;
+}
+
+@mixin bold_heavy() {
+  font-weight: 900;
+}
+
+@mixin bold_regular() {
+  @include bold_normal
+}

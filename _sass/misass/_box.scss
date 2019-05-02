@@ -1,0 +1,19 @@
+/**
+  Created by    Gabriel Andrei gabrielandrei79@gmail.com
+  Date:         2019-05-02
+  Time:         21:59
+*/
+
+@mixin box-sizing($type){
+  // box-sizing: content-box|border-box|initial|inherit;
+  -moz-box-sizing: $type;
+  -webkit-box-sizing: $type;
+  box-sizing: $type;
+
+}
+
+@mixin box-sizing-border-box{
+  *, *:before, *:after {
+    @include box-sizing(border-box)
+  }
+}

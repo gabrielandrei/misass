@@ -1,0 +1,29 @@
+/**
+  Created by    Gabriel Andrei gabrielandrei79@gmail.com
+  Date:         2019-05-02
+  Time:         21:57
+*/
+@mixin clearfix(){
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+
+  .clearfix {
+    display: inline-block;
+  }
+
+  /* start commented backslash hack \*/
+  * html .clearfix {
+    height: 1%;
+  }
+
+  .clearfix {
+    display: block;
+  }
+  /* close commented backslash hack */
+}
