@@ -1,6 +1,6 @@
 {
   "name": "misass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "just some sass mixing",
   "main": "misass.scss",
   "repository": "https://github.com/gabrielandrei/misass.git",
