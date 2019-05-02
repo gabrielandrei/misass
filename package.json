@@ -2,7 +2,7 @@
   "name": "misass",
   "version": "1.0.0",
   "description": "just some sass mixing",
-  "main": "index.js",
+  "main": "_sass/misass/misass.scss",
   "repository": "https://github.com/gabrielandrei/misass.git",
   "author": "gabrielandrei <gabrielandrei79@gmail.com>",
   "license": "MIT",
