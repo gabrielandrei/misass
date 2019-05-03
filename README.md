@@ -1,6 +1,6 @@
 #misass
 
-just some mixing
+just some mixins
 
 `yarn add misass`
 
