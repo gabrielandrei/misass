@@ -4,6 +4,6 @@ just some mixing
 
 `yarn add misass`
 
-include as:
+include with:
 
 `@import "../../../node_modules/misass/misass";`
